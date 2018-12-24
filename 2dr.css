@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.googleapis.com/css?family=Merriweather:900|Roboto)
+}
+
+@font-face{
+    font-family: 'Merriweather';
+    src: url(https://fonts.googleapis.com/css?family=Merriweather:900|Roboto)
+}
+.container{
+    width: 625px;
+    color: white;
+    display: inline-block
+    
+}
+.headline{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    border-bottom: 15px;
+    border-top: 30px solid transparent;
+    margin: 0
+
+}
+.text {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    border-bottom: 20px solid transparent;
+    max-width: 530px
+}
+.yellow{
+    background-image: url("žuta.jpg");
+    background-position: right;
+    background-size: cover;
+    padding-left: 25px;
+    border-bottom: 25px solid rgb(206, 205, 205);
+    
+}
+.pink{
+    background-image: url("roza.jpg");
+    background-size: cover;
+    background-position: right;
+    padding-left: 25px;
+    border-bottom: 25px solid rgb(206, 205, 205);
+}
+.phone{
+    background-image: url("telefon.jpg");
+    background-size: cover;
+    background-position: right;
+    padding-left: 25px;
+}
+button{
+    display: inline-block;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    background-color: rgba(243, 243, 243, 0.226);
+    border-color: transparent;
+    color: white;
+    margin: 0px 5px
+}
+.buttons1{
+    max-width: 550px;
+    border-bottom: 10px solid transparent
+}
+.buttons2{
+    max-width: 550px;
+    border-bottom: 25px solid transparent
+}
+
+
